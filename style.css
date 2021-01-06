@@ -1,26 +1,34 @@
+body {
+    background-color: white;
+
+}
+
 h1 {
     font-size: 50px;
+
 }
+
 .orange-highlight {
     color: orange;
+
 }
+
 .welcome {
     color: rgb(54, 57, 88);
+
 }
 
 .half-width {
     width: 40%;
-    float: left;
-    margin-left: 5%;
-    padding-left: 2px;
+    float: left; 
+    margin-left: 2%;
+    padding-left: 3%;
+
 }
 
 .half-width img {
     width: 100%;
-}
 
-secrtion {
-    width: 500px;
 }
 
 .link-button{
@@ -31,4 +39,71 @@ secrtion {
     border-radius: 5px;
     font-weight: 700;
     
+}
+
+section {
+    height: 500px;  
+    padding-bottom: 200px;
+   
+}
+
+h2 {
+    font-size: 40px;
+
+}
+
+.text {
+    font-size: 25px;
+
+}
+.working-project {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    background-color: #E7E6E8;
+    clear: both;
+
+}
+
+.example {
+    width: 31%;
+    padding: 5px 5px 5px 5px;
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+    box-shadow: 15px 15px 40px rgb(206, 206, 206);
+    border-radius: 10px;
+}
+.example img{
+   width: 100%;
+}
+.inner {
+    margin: 10px 130px;
+}
+
+.work-inquiry {
+    float: left;
+    clear: both;
+    height: 20%;
+    width: 70%;
+    
+    
+}
+
+.chat {
+    padding-top: 5%;
+    height: 20%;
+    
+}
+
+.last {
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 50px;
+    width: 400px;
+    background-image: url(images/Group.png);
+    background-size: 600px 200px;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+
 }
